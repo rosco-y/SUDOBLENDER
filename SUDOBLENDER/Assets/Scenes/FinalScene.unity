@@ -359,7 +359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &344227339
 Transform:
   m_ObjectHideFlags: 0
@@ -385,7 +385,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9811321, g: 0.8567266, b: 0.56924176, a: 1}
   m_Intensity: 50
   m_Range: 26.8
   m_SpotAngle: 93
@@ -919,7 +919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _xMovement: 0
-  _rotateSpeed: 1
+  _rotateSpeed: 2
 --- !u!135 &1688760719
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -931,7 +931,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1688760720
 MeshRenderer:
